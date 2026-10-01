@@ -1,0 +1,30 @@
+# github-publish —— 公开范围：前端 + 后端 + MCP 服务壳
+# 本目录是「纯净版」副本，是上传到 GitHub 的唯一来源。
+# 规则见 _发布规则.md（本文件不随仓库上传）。
+
+# ── 技能库：本地工作流提示词，不公开 ──
+skills/
+
+# ── 具体工具脚本本体：属于本地沉淀，不公开 ──
+mcp/tools/
+mcp/_模板.tool.ps1.txt
+
+# ── 本地规则 / 说明（下划线前缀 = 仅本地）──
+_*
+
+# ── 本地运行产物 / 备份 / 凭据（永不公开）──
+_bak/
+_trash/
+.secrets/
+.env
+*.token
+*.log
+*.bak
+*.bak-*
+*.tmp
+
+# ── MCP 运行产物 ──
+mcp/_*/
+mcp/_*.txt
+mcp/_*.json
+mcp/_fs-roots.txt
